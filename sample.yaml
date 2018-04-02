@@ -1,6 +1,2 @@
-<<<<<<< HEAD
-test: 42
-=======
 test:
   prop: newUpdatedConfigFromGiHub
->>>>>>> Updated commit
