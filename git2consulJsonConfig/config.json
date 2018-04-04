@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "repos" : [{
-    "name" : "config/springBoot",
+    "name" : "config",
     "include_branch_name":false,
     "url" : "https://github.com/OlegOprysk/git2consul_config.git",
     "branches" : ["master"],
