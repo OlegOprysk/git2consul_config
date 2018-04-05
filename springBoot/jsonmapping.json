@@ -1,6 +1,1 @@
-json:"[
-  {
-    "country":"",
-    "XXX":["CC", "EE", "AA"]
-  }
-]"
+"[{'country':'','XXX':['CC', 'EE', 'AA']}]"
