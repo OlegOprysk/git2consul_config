@@ -1,10 +1,9 @@
 {
   "version": "1.0",
   "repos" : [{
-    "name" : "config",
-    "include_branch_name":false,
+    "name" : "config/springBoot",
     "url" : "https://github.com/OlegOprysk/git2consul_config.git",
-    "branches" : ["master"],
+    "branches" : ["dev","uat","test"],
     "hooks": [{
       "type" : "polling",
       "interval" : "1"
