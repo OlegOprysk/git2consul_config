@@ -5,6 +5,7 @@
     "expand_keys" : true,
     "include_branch_name":false,
     "url" : "https://github.com/OlegOprysk/git2consul_config.git",
+    "source_root": "springBoot/configuration",
     "ignore_file_extension" : true,
     "branches" : ["master"],
     "hooks": [{
