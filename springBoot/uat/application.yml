@@ -1,1 +1,4 @@
-common.variable: This should be common propery
+common:
+  variable: This should be UAT propery
+test:
+  prop: This is UAT property
