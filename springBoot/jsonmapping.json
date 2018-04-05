@@ -1,6 +1,6 @@
-[
+json:"[
   {
     "country":"",
     "XXX":["CC", "EE", "AA"]
   }
-]
+]"
