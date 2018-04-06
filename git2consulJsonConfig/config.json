@@ -1,16 +1,30 @@
 {
   "version": "1.0",
   "repos" : [{
-    "name" : "config",
+    "name" : "settings",
     "expand_keys" : true,
     "include_branch_name":false,
     "url" : "https://github.com/OlegOprysk/git2consul_config.git",
-    "source_root": "springBoot/configuration",
+    "source_root": "springBoot/configuration/",
+    "mountpoint": "config/springBoot",
     "ignore_file_extension" : true,
     "branches" : ["master"],
     "hooks": [{
       "type" : "polling",
       "interval" : "1"
     }]
+    },{
+      "name": "jsons",
+      "expand_keys": false,
+      "include_branch_name": false,
+      "url": "https://github.com/OlegOprysk/git2consul_config.git",
+      "source_root": "springBoot/json/",
+      "mountpoint": "config/springBoot",
+      "ignore_file_extension" : true,
+      "branches" : ["master"],
+      "hooks": [{
+        "type" : "polling",
+        "interval" : "1"
+        }]
   }]
 }
