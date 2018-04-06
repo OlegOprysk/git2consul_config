@@ -1,4 +1,4 @@
 common:
-  variable: This should be DEV propery
+  variable: This update is from git push for DEV profile
 test:
-  prop: This is DEV property
+  prop: This is DEV property UPDATED from git push
